@@ -1,0 +1,225 @@
+/* Hero Image Styling */
+
+.view,
+body,
+header,
+html {
+    height: 100%;
+    font-family: Poppins
+}
+
+
+/* Hero Image Styling for Mobile Devices */
+
+@media (max-width:740px) {
+    .view,
+    body,
+    header,
+    html {
+        height: 100%;
+    }
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+
+/* Hero Image */
+
+#hero {
+    padding-top: 170px
+}
+
+#menu {
+    color: #fff
+}
+
+#menu:hover {
+    color: #09f
+}
+
+#bg {
+    background-color: #09f;
+    width: 100%
+}
+
+#msg {
+    color: #fff
+}
+
+.btnContact {
+    text-align: center
+}
+
+button {
+    background: #09f;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 5px
+}
+
+button:active {
+    border: none
+}
+
+.col-sm-3 {
+    color: #fff
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 100px;
+    font-weight: 700
+}
+
+#white {
+    color: #fff;
+    padding: 70px
+}
+
+.h1-reponsive {
+    color: #fff;
+    text-shadow: 2px 3px #050505
+}
+
+h1 {
+    color: #172c50
+}
+
+.plane {
+    width: 50%
+}
+
+.col-sm-3 {
+    border: 2px double rgb(255, 255, 255);
+    height: auto;
+    background: url(../img/blue.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Our products Styling */
+
+.product {
+    text-align: center;
+    padding: 80px;
+}
+
+
+/* Button Styling */
+
+.bottom {
+    background-color: #09f;
+    width: 60px;
+    height: 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+@media (max-width:740px) {
+    .flex {
+        display: block;
+        width: 50%;
+    }
+}
+
+#fafa {
+    background: #09f;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.fa-shopping-cart {
+    color: #09f;
+}
+
+.fa-shopping-cart:hover {
+    color: #ff7b00;
+}
+
+
+/* Contact form Styling */
+
+.contact-form {
+    background: #fff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #09f;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form .btnContact:hover {
+    background: #ff7b00;
+    color: #fff;
+}
+
+.contact-form .btnContact {
+    background: #fff;
+    color: #09f;
+}
+
+
+/* Site footer Styling */
+
+.page-footer {
+    background: #0062cc;
+    color: #fff;
+}
